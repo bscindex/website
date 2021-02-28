@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BSC Index Grower</title>
+
+    <!-- CSS -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" href="assets/img/favicon.png">
+
+    <!-- Plugins -->
+    <link href="assets/plugins/owl.carousel/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/plugins/twentytwenty/twentytwenty.css" rel="stylesheet">
+
+    <!-- Iconic Fonts -->
+    <link href="assets/css/fonts/fontawesome/all.min.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-affix">
+      <div class="container">
+        <div class="row">
+          <div class="col-auto col-lg-6 d-lg-none">
+            <button class="navbar-toggler d-xl-none" data-toggle="offcanvas" data-target="#offcanvas-left">
+              <img src="assets/img/menu-dark.svg" class="menu__btn menu-dark" alt="Menu">
+              <img src="assets/img/menu-light.svg" class="menu__btn menu-light" alt="Menu">
+            </button>
+          </div>
+
+          <div class="col-auto col-sm-auto text-lg-left ml-auto ml-lg-0">
+            <a class="navbar-brand logo" href="#">
+              <img src="assets/img/logo-dark.png" alt="Auria" class="logo-dark">
+              <img src="assets/img/logo-light.png" alt="Auria" class="logo-light">
+            </a>
+          </div>
+
+          <div class="col-12 col-lg-auto ml-lg-auto">
+            <div id="offcanvas-left" class="offcanvas-md" data-animation="slideLeft">
+              <button type="button" class="close fw-100 d-lg-none" data-toggle="offcanvas-close" aria-label="Close">
+                <img src="assets/img/close-dark.svg" class="menu__btn closeMenu__btn menu-dark" alt="Close">
+                <img src="assets/img/close-light.svg" class="menu__btn closeMenu__btn menu-light" alt="Close">
+              </button>
+              <ul class="nav navbar-nav mr-6 mr-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link px-xl-5 active" data-scroll="#home">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#" id="dropdownNav" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Index Tokens <i class="fas fa-sort-down"></i></a>
+                  <div class="dropdown-menu position-absolute" aria-labelledby="dropdownNav">
+                    <a class="dropdown-item" href="https://cid.bscindex.com">CID</a>
+                    <a class="dropdown-item" href="https://pid.bscindex.com">PID</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-scroll="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-scroll="#">Exchange</a>
+                </li>
+                <li class="nav-item btn-wrapper pl-lg-6">
+                  <a class="btn btn-warning btn-round" href="#farms">Farm</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- /.nav -->
+
+    <!-- header -->
+    <header id="home" class="header" data-style="default" data-scroll-arrow="true">
+      <div class="header-hero d-flex align-items-center text-light">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-8 mr-auto position-relative zi-4">
+              <div class="d-flex justify-content-center justify-content-lg-start">
+                <div class="hero-cont hero-shadow pr-0">
+                  <div class="display-4 display-lg-2 fw-700 text-center text-lg-left lh-1 mb-4">
+                    <span class="d-block text-warning fadeInLeft ad-200ms">BSC Index Grower</span>
+                    <span class="d-block fadeInLeft ad-400ms">Yield Farm and Exchange</span>
+                    <span class="d-block fadeInLeft ad-600ms">on Binance Smart Chain</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="overlay hero-shape fadeIn ad-100ms"></div>
+      <!-- modal -->
+      <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+          <div class="modal-content bg-dark-end">
+            <div class="modal-header border-dark bg-transparent">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span class="text-light" aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="position-relative ar-16_9">
+              <iframe class="overlay border-0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.modal-->
+    </header>
+    <!-- /.header -->
+
+    <!-- main -->
+    <main id="content-main" class="content-main">
+
+      <!-- new -->
+      <section id="farms" class="wn__section content-section">
+        <div class="container">
+          <div class="row mb-10">
+            <div class="col-8 mx-auto">
+              <span class="d-block text-light mb-6 lead-1"> <strong>BSC Index Grower</strong> Token <strong>Farms</strong></span>
+              <div class="mb-8">
+                <a href="https://cid.bscindex.com" class="btn-download btn btn-lg btn-sm-block btn-theme rounded-2">
+                  <div class="d-flex align-items-center py-2">
+                    <div class="mr-4">
+                      <div class="d-flex lead-5"></div>
+                    </div>
+                    <div class="text-left lh-6 fw-500">
+                      <span class="d-none d-lg-block">Start CID Earn</span>
+                      <strong class="fw-700">CheeseSwap Index</strong>
+                    </div>
+                  </div>
+                </a>
+                <a href="https://pid.bscindex.com" class="btn-download btn btn-lg btn-sm-block btn-theme rounded-2">
+                  <div class="d-flex align-items-center py-2">
+                    <div class="mr-4">
+                      <div class="d-flex lead-5"></div>
+                    </div>
+                    <div class="text-left lh-6 fw-500">
+                      <span class="d-none d-lg-block">Start PID Earn</span>
+                      <strong class="fw-700">PancakeSwap Index</strong>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.new -->
+
+    </main>
+    <!-- /.main -->
+
+    <!-- footer -->
+    <footer class="footer text-center">
+      <!-- download-app -->
+      <div class="download__section text-center pt-0">
+        <div class="container">
+          <div class="app_icon-wrapper mb-8">
+            <img src="assets/img/logo-app.png" alt="Auria" class="img-lg">
+          </div>
+          <h2 class="title-download display-lg-4 mb-7">BSC Index Grower</h2>
+          <span class="d-block mb-8 lead-md-1"></span>
+          <div class="row">
+            <div class="col-8 mx-auto col-lg-12">
+              <a href="https://twitter.com/cheeseswapbsc" class="btn-download"><img src="assets/img/icon/twitter.svg" alt="Twitter" style="width: 48px;"></a>
+              <a href="https://t.me/cheesemakerfarm" class="btn-download"><img src="assets/img/icon/telegram.svg" alt="Telegram" style="width: 48px;"></a>
+              <a href="https://github.com/bscindex" class="btn-download"><img src="assets/img/icon/github.svg" alt="Github" style="width: 48px;"></a>
+              <a href="mailto:info@cheeseswap.app" class="btn-download"><img src="assets/img/icon/email.svg" alt="Mail" style="width: 48px;"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.download-app -->
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <span class="lead-1"><strong>© Copyright 2021 BSC Index Grower</strong> built by <strong class="text-warning">Omega Protocol Ltd.</strong></span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /.footer -->
+
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/plugins/hover3d-master/jquery.hover3d.min.js"></script>
+    <script src="assets/plugins/twentytwenty/jquery.event.move.js"></script>
+    <script src="assets/plugins/twentytwenty/jquery.twentytwenty.js"></script>
+
+    <!-- User JS -->
+    <script src="assets/js/scripts.js"></script>
+
+    <!-- Modules -->
+    <script src="assets/js/modules.js"></script>
+
+    <!-- Main JS -->
+    <script src="assets/js/main.js" id="_mainJS" data-plugins="load"></script>
+  </body>
+</html>
