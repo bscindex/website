@@ -401,6 +401,11 @@ h6, .h6 {
   font-weight: 600;
   line-height: 1.5; }
 
+.display-5 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.5; }
+
 hr {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -18738,7 +18743,7 @@ ul.list-style-square {
   line-height: 1.5; }
 
 .display-4 {
-  font-size: 3.5rem !important;
+  font-size: 2.5rem !important;
   font-weight: 600;
   line-height: 1.5; }
 
