@@ -50,7 +50,7 @@ body {
 .hr_theme {
   width: 16%;
   border-width: 3px;
-  border-color: #0eabf9; }
+  border-color: #f3bc2f; }
 
 .fx-spin {
   -webkit-animation-name: F_spin;
@@ -75,8 +75,8 @@ body {
   font-size: 1.3rem;
   display: block;
   background: #e25a88;
-  background: -webkit-linear-gradient(bottom, #e25a88 0%, #0eabf9 100%);
-  background: linear-gradient(to top, #e25a88 0%, #0eabf9 100%);
+  background: -webkit-linear-gradient(bottom, #e25a88 0%, #f3bc2f 100%);
+  background: linear-gradient(to top, #e25a88 0%, #f3bc2f 100%);
   color: #ffffff;
   width: 3rem;
   height: 3rem;
@@ -95,9 +95,9 @@ body {
 .fi-list .fi-item .fi-icon {
   width: 3rem;
   height: 3rem;
-  color: #0eabf9;
+  color: #f3bc2f;
   border: double 2px transparent;
-  background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle at top left, #df4d7f, #0eabf9);
+  background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle at top left, #df4d7f, #f3bc2f);
   background-origin: border-box;
   background-clip: content-box, border-box;
   -webkit-transition: 0.3s linear;
@@ -105,7 +105,7 @@ body {
   -ms-transition: 0.3s linear;
   transition: 0.3s linear; }
   .fi-list .fi-item .fi-icon:hover {
-    background-image: linear-gradient(#df4d7f, #0eabf9), linear-gradient(#df4d7f, #0eabf9);
+    background-image: linear-gradient(#df4d7f, #f3bc2f), linear-gradient(#df4d7f, #f3bc2f);
     color: #ffffff; }
 .fi-list .fi-item:not(:last-child) {
   margin-bottom: 1rem; }
@@ -168,13 +168,13 @@ body {
 .themeOwl-nav button:focus {
   outline: none; }
 .themeOwl-nav button > * {
-  background: -webkit-linear-gradient(#0eabf9, #dc386f);
+  background: -webkit-linear-gradient(#f3bc2f, #dc386f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 .themeOwl-nav .owl-dots {
   justify-content: center; }
   .themeOwl-nav .owl-dots .owl-dot.active span {
-    background: -webkit-linear-gradient(#0eabf9, #59c5fb); }
+    background: -webkit-linear-gradient(#f3bc2f, #59c5fb); }
 
 @media (min-width: 992px) {
   .themeOwl-nav .owl-nav {
@@ -284,11 +284,11 @@ body {
     .wn__section .owl-carousel .owl-nav button.owl-prev,
     .wn__section .owl-carousel .owl-nav button.owl-next {
       display: inline-block;
-      background: #0eabf9;
+      background: #f3bc2f;
       padding: .35rem 1rem !important;
       color: #ffffff; }
     .wn__section .owl-carousel .owl-nav button.owl-prev {
-      background: #0eabf9;
+      background: #f3bc2f;
       border-radius: 28px 0px 0px 28px; }
     .wn__section .owl-carousel .owl-nav button.owl-next {
       background: #da2f69;
@@ -428,8 +428,8 @@ body {
 .page-hero {
   height: 28.125rem;
   background: #da2f69;
-  background: -webkit-linear-gradient(left, #da2f69 0%, #0eabf9 100%);
-  background: linear-gradient(to right, #da2f69 0%, #0eabf9 100%); }
+  background: -webkit-linear-gradient(left, #da2f69 0%, #f3bc2f 100%);
+  background: linear-gradient(to right, #da2f69 0%, #f3bc2f 100%); }
 
 .media-container {
   position: absolute;
@@ -482,7 +482,7 @@ body {
   .tags_cloud .badge-primary {
     background-color: #a3dffd; }
     .tags_cloud .badge-primary:hover {
-      background-color: #0eabf9; }
+      background-color: #f3bc2f; }
 
 /* [ plugins ] */
 /* jquery.hover3d */
